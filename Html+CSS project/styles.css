@@ -1,0 +1,71 @@
+.title{
+    text-align: center;
+    font-family: dancing-script, cursive;
+    font-size: 3em;
+    background-repeat: initial;
+    background-attachment:scroll;
+    background-size: cover;
+    
+}
+body{
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+}
+.Mountain{
+    width: auto;
+    height: 200px;
+    display: block;
+    margin-left: 0 auto;
+    border: 1px solid black;
+    transition: transform 0.5s ease;
+    
+}
+.Mountain:hover{
+    transform: scale(1.5);
+}
+
+p{
+    font-family:Smooch Sans;
+    font-size: large;
+    font-weight: 800;
+
+}
+.Chettah{
+    display: block;               /* Block for margin: auto to work */
+    height: 200px;
+    width: auto;
+    border: 1px solid black;
+    transition: transform 0.5s ease;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.Chettah:hover{
+    transform: scale(1.5);
+}
+
+
+.venice{
+    display: block;
+    height: 200px;
+    width: auto;
+    border: 1px solid black;
+    transition: transform 0.5s ease;
+}
+.venice:hover{
+    transform: scale(1.5);
+}
+.Gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-container {
+    text-align: center;
+    max-width: 300px;
+    margin: 10px;
+}
+.Mountain:hover, .Chettah:hover, .venice:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
